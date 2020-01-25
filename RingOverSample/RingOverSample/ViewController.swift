@@ -22,10 +22,40 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        tableView.dataSource = self
-        tableView.delegate = self
+        loadDataFromJson()
     }
+    
+    func loadDataFromJson(){
+        
+        guard let path = Bundle.main.path(forResource: "recentcomm", ofType: "txt") else { return }
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            let data = try Data(contentsOf: url)
+            let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
+            //print(json)
+            
+            guard let array = json as? [Any] else { return }
+            
+            for communication in array {
+                guard let communicationDict = communication as? [String: Any] else { return }
+                
+                guard let startTime = communicationDict["startTime"] as? String else { return }
+                guard let type = communicationDict["type"] as? [String: String] else { return }
+                guard let result = communicationDict["result"] else { return }
+                
+                
+                print(startTime)
+                print(type)
+                print(result)
+            }
+        }
+        catch {
+            print(error)
+        }
+        
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 3
     }
