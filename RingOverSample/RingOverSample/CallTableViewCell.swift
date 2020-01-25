@@ -10,15 +10,17 @@ import UIKit
 
 class CallTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    @IBOutlet weak var typeCommunicationImg: UIImageView!
+    @IBOutlet weak var contactNameLbl: UILabel!
+    @IBOutlet weak var contactNumberLbl: UILabel!
+    @IBOutlet weak var toContactNumbreLbl: UILabel!
+    @IBOutlet weak var dateCommunicationLbl: UILabel!
+    @IBOutlet weak var favoriteImg: UIImageView!
+    
+    
+    
+    
+    
+    
 
 }

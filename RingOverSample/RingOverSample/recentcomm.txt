@@ -1,0 +1,101 @@
+{   
+  "records": [
+         {
+            
+            "id": “45jhRfeDFXS”,
+            "startTime": “16:67”,
+            "type": "Voice",
+            "action": "Phone Call",
+            "result": "Accepted",
+            "favorite": true,
+            "to": {
+                "phoneNumber": "+15623215778",
+                "name": "SDK Engineer Candidate"
+            },
+            "from": {
+                "phoneNumber": "+14158905908",
+                "name": "SAN FRANCSCO CA"
+            }
+        },{
+            
+            "id": “Nkjfdh575”,
+            "startTime": “13:34”,
+            "type": "Voice",
+            "action": "Phone Call",
+            "result": "Accepted",
+            "favorite": true,
+            "to": {
+                "phoneNumber": "+15623215778",
+                "name": "SDK Engineer Candidate"
+            },
+            "from": {
+                "phoneNumber": "+14158905908",
+                "name": "SAN FRANCSCO CA"
+            }
+        },{
+            
+            "id": “aqSWxwXCD”,
+            "startTime": “18:56”,
+            "type": "Voice",
+            "action": "Phone Call",
+            "result": "Accepted",
+            "favorite": false,
+            "to": {
+                "phoneNumber": "+15623215778",
+                "name": "SDK Engineer Candidate"
+            },
+            "from": {
+                "phoneNumber": "+14158905908",
+                "name": "SAN FRANCSCO CA"
+            }
+        },{
+            
+            "id": "ASaxDDkSZ5s42MA",
+            "startTime": "2016-06-06T23:07:20.000Z",
+            "type": "Voice",
+            "action": "Phone Call",
+            "result": "Accepted",
+            "favorite": true,
+            "to": {
+                "phoneNumber": "+15623215778",
+                "name": "SDK Engineer Candidate"
+            },
+            "from": {
+                "phoneNumber": "+14158905908",
+                "name": "SAN FRANCSCO CA"
+            }
+        },{
+            
+            "id": "ASaxDDkSZ5s42MA",
+            "startTime": "2016-06-06T23:07:20.000Z",
+            "type": "Voice",
+            "action": "Phone Call",
+            "result": "Accepted",
+            "favorite": true,
+            "to": {
+                "phoneNumber": "+15623215778",
+                "name": "SDK Engineer Candidate"
+            },
+            "from": {
+                "phoneNumber": "+14158905908",
+                "name": "SAN FRANCSCO CA"
+            }
+        },{
+            
+            "id": "ASaxDDkSZ5s42MA",
+            "startTime": "2016-06-06T23:07:20.000Z",
+            "type": "Voice",
+            "action": "Phone Call",
+            "result": "Accepted",
+            "favorite": true,
+            "to": {
+                "phoneNumber": "+15623215778",
+                "name": "SDK Engineer Candidate"
+            },
+            "from": {
+                "phoneNumber": "+14158905908",
+                "name": "SAN FRANCSCO CA"
+            }
+        }
+    ]
+  }

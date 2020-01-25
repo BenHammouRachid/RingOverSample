@@ -150,7 +150,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="369"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="107" id="8eh-zh-Ygr" customClass="CallTableViewCell" customModule="RingOverSample" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="107" id="8eh-zh-Ygr" customClass="CallTableViewCell" customModule="RingOverSample" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="375" height="107"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8eh-zh-Ygr" id="AA6-HZ-tqY">
@@ -236,9 +236,20 @@
                                                         <constraint firstItem="cGN-NC-mZ1" firstAttribute="leading" secondItem="9VF-xj-20q" secondAttribute="trailing" constant="8" id="zmG-T3-hze"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
-                                                <accessibility key="accessibilityConfiguration" identifier="CallCell"/>
+                                                <connections>
+                                                    <outlet property="contactNameLbl" destination="cGN-NC-mZ1" id="VX0-fG-Dtm"/>
+                                                    <outlet property="contactNumberLbl" destination="NmA-iS-BnO" id="CzI-tT-Vqy"/>
+                                                    <outlet property="dateCommunicationLbl" destination="WUL-fI-DdZ" id="pOn-wj-RGP"/>
+                                                    <outlet property="favoriteImg" destination="K6R-XH-Mig" id="jD1-iG-NX2"/>
+                                                    <outlet property="toContactNumbreLbl" destination="Xaz-Ai-Sxn" id="3ew-ju-q7I"/>
+                                                    <outlet property="typeCommunicationImg" destination="9VF-xj-20q" id="oE7-qS-R9g"/>
+                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="BYZ-38-t0r" id="so0-ba-7NK"/>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="iMe-ji-AVB"/>
+                                        </connections>
                                     </tableView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -329,6 +340,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="missedCallLbl" destination="QAK-dP-6EG" id="1Uv-xZ-peb"/>
+                        <outlet property="smsLbl" destination="1zr-iU-5JJ" id="8P9-Bj-1l5"/>
+                        <outlet property="tableView" destination="gJo-v0-Tst" id="uwp-wi-8gH"/>
+                        <outlet property="voiceMailsLbl" destination="6bP-Nx-hJK" id="xGw-EG-Wmy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

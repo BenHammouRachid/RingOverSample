@@ -14,6 +14,7 @@
 		FA7BA05D23DC6FB700D5C257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7BA05C23DC6FB700D5C257 /* Assets.xcassets */; };
 		FA7BA06023DC6FB700D5C257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7BA05E23DC6FB700D5C257 /* LaunchScreen.storyboard */; };
 		FA7BA06823DC855F00D5C257 /* CallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7BA06723DC855F00D5C257 /* CallTableViewCell.swift */; };
+		FA7BA06A23DCAE9F00D5C257 /* recentcomm.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA7BA06923DCAE9F00D5C257 /* recentcomm.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FA7BA05F23DC6FB700D5C257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA7BA06123DC6FB700D5C257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA7BA06723DC855F00D5C257 /* CallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallTableViewCell.swift; sourceTree = "<group>"; };
+		FA7BA06923DCAE9F00D5C257 /* recentcomm.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = recentcomm.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		FA7BA05123DC6FB400D5C257 /* RingOverSample */ = {
 			isa = PBXGroup;
 			children = (
+				FA7BA06923DCAE9F00D5C257 /* recentcomm.txt */,
 				FA7BA05223DC6FB400D5C257 /* AppDelegate.swift */,
 				FA7BA05423DC6FB400D5C257 /* ViewController.swift */,
 				FA7BA05623DC6FB400D5C257 /* Main.storyboard */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7BA06023DC6FB700D5C257 /* LaunchScreen.storyboard in Resources */,
+				FA7BA06A23DCAE9F00D5C257 /* recentcomm.txt in Resources */,
 				FA7BA05D23DC6FB700D5C257 /* Assets.xcassets in Resources */,
 				FA7BA05823DC6FB400D5C257 /* Main.storyboard in Resources */,
 			);
