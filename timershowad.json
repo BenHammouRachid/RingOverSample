@@ -1,0 +1,9 @@
+{
+  "random_nbr": "5",
+  "time_to_show": 40,
+  "activate": true,
+  "banner": "banner_id",
+  "interstitial_first": "inter_id1",
+  "interstitial_second": "inter_id2",
+  "interstitial_third": "inter_id3"
+}
